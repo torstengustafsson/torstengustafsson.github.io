@@ -1,10 +1,11 @@
+# Important: all URLs must have a trailing slash!
 - text: Home
   url: /
 - text: First menu
-  url: /projects/
+  url: /first-menu/
   subitems:
     - text: First menu (sub)
-      url: /projects/spacerphaser/
+      url: /first-menu/first-menu-sub/
       subitems:
         - text: First menu (sub-sub)
           url: /first-menu/first-menu-sub/first-menu-sub-sub/
@@ -13,3 +14,5 @@
   subitems:
     - text: Second menu (sub)
       url: /second-menu/second-menu-sub/
+- text: Sitemap
+  url: /sitemap/
