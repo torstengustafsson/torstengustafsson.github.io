@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Torsten Gustafsson</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Freelancer Theme CSS -->
+    <link href="../../../css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/pages/home/">Torsten Gustafsson</a>
+    </div>
+      <ul class="nav navbar-nav">
+        <li><a href="/pages/about/">About</a></li>
+        <li class="active"><a href="/pages/projects/">Projects</a></li>
+        <li><a href="/pages/cv/">CV</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+<div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+        <div class="modal-body">
+            <h2>Adventure Tales</h2>
+            <hr class="star-primary">
+            <img src="../../../images/adventuretales.png" class="img-responsive img-centered" alt="">
+            <p>A hobby project I worked on in the summer 2016. I wanted to make a top-down 2D fantasy game, mostly to learn how to set-up a good character system for a game. It uses <a target="blank" href="https://www.libsdl.org/">SDL2</a> for controls, audio and graphics. It mainly features a character system with character stats, with an accompanying inventory system and a dialogue system for talking to NPC:s.</p>
+            
+            <div class="col-lg-6">
+                <img src="img/portfolio/at1.png" class="img-responsive img-centered" alt="">
+            </div>
+            <div class="col-lg-6">
+                <img src="img/portfolio/at2.png" class="img-responsive img-centered" alt="">
+            </div>
+
+            <p>The maps were made and exported in <a target="blank" href="http://www.mapeditor.org/">Tiled Map Editor</a>, and then parsed by the game at runtime. This allowed easy set-up and transitions between levels.</p> 
+            <p>By storing resources such as textures in a hashmap, performance was increased considerably, compared to retrieving each resource every time it was needed.</p>
+
+            <p><b>Related Terms:</b></p>
+            <p>SDL2 - C++ - Resource Management</p>
+            <ul class="list-inline item-details">
+            </ul>
+            <form action="https://torstengustafsson.github.io/pages/projects">
+                <input type="submit" value="Back" />
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
